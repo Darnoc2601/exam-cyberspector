@@ -2,7 +2,7 @@
 # Rapport de Mise en Place d'un Serveur Linux Sécurisé pour Héberger un Site WordPress
 
 ## Introduction
-Ce rapport décrit les étapes suivies pour l'installation et la sécurisation d'un serveur Linux destiné à héberger un site WordPress. L'objectif principal est de garantir un hébergement sécurisé, en limitant les vulnérabilités et en assurant que le site ne soit accessible que de manière sécurisée via HTTPS.
+Ce rapport décrit les étapes suivies pour l'installation et la sécurisation d'un serveur Linux  qui est destiné à héberger un site WordPress. L'objectif principal est de garantir un hébergement sécurisé, en limitant les vulnérabilités, en controllant l'accessibilité au site et en assurant que le site ne soit accessible que de manière sécurisée via HTTPS.
 
 ## 1. Préparation et Endurcissement du Serveur
 
