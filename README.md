@@ -137,3 +137,26 @@ Ce rapport décrit les étapes suivies pour l'installation et la sécurisation d
     maxretry = 5
     bantime = 600
     ```
+ - **Controler l'accessibilité au site.** :
+    - Installer l'utilitaire Apache pour créer le fichier .htpasswd, avec la commande suivante pour installer apache2-utils:
+      ```plaintext
+    sudo apt-get install apache2-utils
+    ```
+    - Créer le fichier .htpasswd et ajouter un utilisateur :
+      ```plaintext
+    sudo htpasswd -c /etc/apache2/.htpasswd utilisateur
+    ```
+        
+    - Configurer l'authentification dans le fichier de configuration Apache pour votre site `/etc/apache2/sites-available/wordpress.conf` :
+    ```plaintext
+    <Directory /var/www/html/wordpress>
+    AuthType Basic
+    AuthName "Restricted Content"
+    AuthUserFile /etc/apache2/.htpasswd
+    Require valid-user
+    </Directory>
+    ```
+    - Redemarrer le serveur Apache
+    ```plaintext
+    sudo systemctl restart apache2
+    ```
