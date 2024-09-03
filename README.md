@@ -172,4 +172,4 @@ Ce rapport décrit les étapes suivies pour l'installation et la sécurisation d
 
   - ![Vérification des mise à jour et l'activation du pare-feu](/wordpress.png)
   - ![Protection contre les attaques](/site.png)
-  - ![Protection contre les attaques](/Screenshot at 2024-09-03 10-55-41.png)
+  - ![Protection contre les attaques](/sitee.png)
