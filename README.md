@@ -144,11 +144,14 @@ Ce rapport décrit les étapes suivies pour l'installation et la sécurisation d
     ```
  - **Controler l'accessibilité au site.** :
     - Installer l'utilitaire Apache pour créer le fichier .htpasswd, avec la commande suivante pour installer apache2-utils:
-      ```plaintext
+    - 
+    ```plaintext
     sudo apt-get install apache2-utils
     ```
+      
     - Créer le fichier .htpasswd et ajouter un utilisateur :
-      ```plaintext
+      
+    ```plaintext
     sudo htpasswd -c /etc/apache2/.htpasswd utilisateur
     ```
         
