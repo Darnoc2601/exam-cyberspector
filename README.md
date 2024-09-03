@@ -51,8 +51,8 @@ Ce rapport décrit les étapes suivies pour l'installation et la sécurisation d
   - Vérification du pare-feu avec `ufw status`: tout est correct.
   - Test de Fail2ban, ClamAV, auditd : protection effective.
  
-  - ![Vérification des mise à jour et l'activation du pare-feu](-images/updfiwe.png)
-  - ![Protection contre les attaques](-images/securiteeeeee.png)
+  - ![Vérification des mise à jour et l'activation du pare-feu](/updfiwe.png)
+  - ![Protection contre les attaques](/securiteeeeee.png)
 
 
 
